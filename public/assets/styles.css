@@ -7,6 +7,8 @@
   max-width:95%;
   margin:0 auto;
   padding:20px;
+  height:90vh;
+  overflow: auto;
 }
 .todoTable form{
   box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
@@ -53,4 +55,10 @@ li:hover{
   text-decoration:line-through;
   background: rgba(0,0,0,0.05);
   transform: scale(1.01);
+}
+footer{
+  height:5vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
