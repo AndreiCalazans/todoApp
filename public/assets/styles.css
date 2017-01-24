@@ -1,0 +1,56 @@
+*, *:before, *:after {
+  margin:0;
+  box-sizing: border-box;
+}
+.todoTable {
+  position:relative;
+  max-width:95%;
+  margin:0 auto;
+  padding:20px;
+}
+.todoTable form{
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}
+input[type='text'] {
+  width:70%;
+  height:80px;
+  padding:20px;
+  border:0;
+  float:left;
+  font-size:20px;
+  background: rgba(0,0,0,0.8);
+}
+button {
+  height:80px;
+  width:30%;
+  border:0;
+  padding:20px;
+  float:left;
+  font-size:20px;
+  cursor:pointer;
+}
+.todoTable form:after {
+  margin:0;
+  display:block;
+  content:"";
+  clear:both;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin: 6px 0;
+  width:100%;
+  padding:20px;
+  font-size:20px;
+  letter-spacing: 1px;
+  cursor:pointer;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}
+li:hover{
+  text-decoration:line-through;
+  background: rgba(0,0,0,0.05);
+  transform: scale(1.01);
+}

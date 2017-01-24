@@ -1,0 +1,30 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "a nodejs to do app with mongodb",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiCalazans/todoApp.git"
+  },
+  "keywords": [
+    "andrei",
+    "calazans",
+    "todoapp",
+    "node"
+  ],
+  "author": "Andrei Calazans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiCalazans/todoApp/issues"
+  },
+  "homepage": "https://github.com/AndreiCalazans/todoApp#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.7"
+  }
+}
